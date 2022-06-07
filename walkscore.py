@@ -32,7 +32,6 @@ def get_walk_score_api(spot):
     lon = "&lon=" + spot.lon
     api_key_param = "&wsapikey=" + API_KEY
     url = url_base + address_param + lat + lon + api_key_param
-    print(url)
     return url
 
 spots = get_spots()
